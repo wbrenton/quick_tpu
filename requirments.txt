@@ -1,0 +1,7 @@
+tensorflow
+tensorflow_datasets
+git+https://github.com/google/brax.git@main
+jax
+dm-haiku
+mctx
+rlax
