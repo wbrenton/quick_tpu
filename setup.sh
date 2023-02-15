@@ -5,7 +5,7 @@ sudo add-apt-repository -y ppa:deadsnakes/ppa
 sudo apt-get install -y -qq python3.10-full python3.10-dev
 
 # create venv and enter it
-python3.10 -m ~/venv jax_venv
+python3.10 -m venv ~/jax_venv
 source ~/jax_venv/bin/activate
 
 # install jax[tpu]
