@@ -9,6 +9,7 @@ python3.10 -m venv ~/jax_venv
 source ~/jax_venv/bin/activate
 
 # install jax[tpu]
+pip install --upgrade pip
 pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 
 # install requirments.txt
