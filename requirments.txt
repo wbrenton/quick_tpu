@@ -5,3 +5,7 @@ jax
 dm-haiku
 mctx
 rlax
+envpool
+flax
+tensorboardX
+jax-smi
