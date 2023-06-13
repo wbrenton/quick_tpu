@@ -10,7 +10,7 @@ source ~/jax_venv/bin/activate
 
 # install jax[tpu]
 pip install --upgrade pip
-pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+pip install "jax[tpu]>=0.3.5" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 
 # install requirments.txt
 pip install -r requirments.txt
