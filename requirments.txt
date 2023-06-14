@@ -1,5 +1,5 @@
-envpool
-gym
+envpool==0.8.1
+gym==0.23.1
 flax
 rlax
 distrax
@@ -7,3 +7,5 @@ optax
 tensorboard
 tensorboardX
 tyro
+psutil
+wandb
